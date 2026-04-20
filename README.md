@@ -1,86 +1,103 @@
-# Customer-Retention-and-Revenue-Optimization-System
+# Customer Retention and Revenue Optimization System
 
-## 📊 Project Overview
+## 📊 Overview
 
-This project analyzes customer purchase behavior and predicts churn risk to enable targeted retention strategies. It combines SQL, Python, and Power BI to deliver business insights and actionable recommendations.
+This project builds an end-to-end analytics system to identify customer churn risk, quantify revenue impact, and enable targeted retention strategies. It integrates SQL, Python, and Power BI to transform raw transactional data into actionable business decisions.
 
 ---
 
-## 🎯 Objectives
+## 🎯 Business Objectives
 
-* Identify customers at risk of churn
-* Quantify revenue at risk
-* Segment customers using RFM analysis
-* Recommend targeted retention strategies
+* Identify high-risk customers likely to churn
+* Quantify potential **revenue at risk**
+* Prioritize customers using a **data-driven scoring system**
+* Recommend targeted retention actions to reduce churn
 
 ---
 
 ## 🛠️ Tech Stack
 
-* **SQL** – Data modeling & queries
-* **Python** – Data processing & feature engineering
-* **Power BI** – Dashboard & visualization
+* **SQL** – Data modeling, joins, and analytical queries
+* **Python** – Feature engineering, churn logic, and data transformation
+* **Power BI** – Interactive dashboards and business insights
 
 ---
 
 ## 📂 Dataset
 
-Customer transaction dataset including:
+Simulated retail dataset including:
 
-* Purchase history
-* Customer demographics
-* Product details
-
----
-
-## ⚙️ Key Features
-
-* RFM segmentation (Recency, Frequency, Monetary)
-* Churn probability calculation
-* Revenue at risk estimation
-* Priority scoring for customer targeting
-* Action recommendations (Discount, Cross-sell, etc.)
+* Customer demographics (region, income, etc.)
+* Transaction history (purchase behavior)
+* Product-level data
 
 ---
 
-## 📊 Dashboard Highlights
+## ⚙️ Core Components
 
-### Page 1: Business Overview
+* **RFM Analysis** (Recency, Frequency, Monetary)
+* **Churn Probability Modeling** (based on recency logic)
+* **Revenue at Risk Calculation**
+* **Customer Priority Scoring System**
+* **Action Recommendation Engine**
 
-* Total Revenue & Revenue at Risk
-* Revenue at Risk by Segment
+  * Discount Campaign
+  * High Value – Personal Offer
+  * Reminder
+  * Cross-sell
+
+---
+
+## 📊 Dashboard Overview
+
+### 🔹 Page 1: Business Performance & Risk
+
+* Total Revenue vs Revenue at Risk
+* Revenue at Risk by Customer Segment
 * Churn Risk Distribution
-* Recommended Action Insights
+* Revenue Impact by Recommended Action
 
-### Page 2: Customer Targeting
+---
 
-* Top high-risk customers
+### 🔹 Page 2: Customer Targeting & Retention
+
+* Top high-priority customers (ranked by score)
 * Customer Value vs Churn Risk (Scatter Plot)
-* Interactive filters (Region, Income, Segment)
+* Interactive filters (Region, Income Band, Segment)
+
+---
+
+###🔹 Page 3: Retention Strategy & Action Planning
+* Revenue at Risk by Recommended Action
+* Customer Distribution by Action (Workload view)
+* Segment vs Action Heatmap (targeting strategy)
 
 ---
 
 ## 💡 Key Insights
 
-* Majority of revenue risk comes from churned customers
-* At-risk customers represent the biggest retention opportunity
-* High-value customers with high churn probability should be prioritized
+* Majority of revenue risk is concentrated in **churned customers**
+* **At-risk customers** represent the highest retention opportunity
+* High-value customers with churn probability > 0.7 should be prioritized
+* Discount and personalized offers drive the highest revenue recovery potential
 
 ---
 
 ## 🚀 Business Impact
 
-* Enables targeted marketing campaigns
-* Helps reduce churn and revenue loss
-* Supports data-driven decision-making
+* Enables **targeted marketing campaigns**
+* Reduces potential revenue loss through early intervention
+* Improves customer retention using data-driven prioritization
+* Bridges gap between analytics and business decision-making
 
 ---
 
-## 📌 Future Improvements
+## 📌 Future Enhancements
 
-* Deploy ML model as API
-* Real-time data integration
-* Automated alerts for high-risk customers
+* Deploy churn model using APIs
+* Integrate real-time data pipelines
+* Automate alerts for high-risk customers
+* Incorporate machine learning models (e.g., XGBoost)
 
 ---
 
